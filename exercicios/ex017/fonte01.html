@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in (polegada), px, pt, pc (paica) (pt e pc não são recomendados utilizar em tela)
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            /*font-decoration: underline; (Para colocar sublinhado)*/
+            /*O peso da fonte é "font-weight"*/
+            /*weight - Peso
+              width - Largura
+              height - Altura*/
+        }
+
+        h1 {
+            /* shorthand 
+            - font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 3em 'sans-serif';
+        } 
+
+        h2 {
+            font: bold 2em 'sans-serif'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, commodi? Eligendi voluptas nisi molestiae adipisci harum ea dignissimos consequatur saepe nesciunt cupiditate labore ex aliquid modi deleniti minus, quia magnam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, magni numquam ullam debitis sit nulla minima, error porro quam neque cum aut, ipsum culpa quae aliquid odio dolor fugiat autem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae illo, soluta optio delectus asperiores dolore ipsum perspiciatis magnam voluptatum labore necessitatibus mollitia distinctio, ipsam inventore. Quae officiis molestias dolores commodi?</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam incidunt itaque officia odit, doloribus minima doloremque impedit veniam delectus fuga repellendus maxime facilis a labore voluptas error sequi pariatur qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure minima ad odit voluptatibus at voluptas enim et quod dolorum laboriosam sunt doloribus, architecto atque, voluptate dolorem earum, alias rem id!</p>
+
+</body>
+</html>
